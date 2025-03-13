@@ -3,7 +3,7 @@ import { useState } from "react";
 import Input from "./components/Input";
 import Output from "./components/Output";
 import Buttons from "./components/Buttons";
-import SelectedLang from "./components/selectedLang";
+import SelectedLang from "./components/SelectedLang";
 
 function App() {
   const [text, setText] = useState("");
